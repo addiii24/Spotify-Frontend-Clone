@@ -1,0 +1,185 @@
+<!-- creating a clone of spotify using HTML, CSS, and JavaScript. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Spotify - Web Player: Music for everyone</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="nav">
+      <nav>
+         <div class="icon">
+            <img src="image/logo.svg" alt="Spotify Logo">
+         </div>
+         <div class="home">
+            <!-- home logo  -->
+            <button><img src="image/home.svg" alt="home"></button>
+         </div>
+         <div class="search">
+            <label for="Search"></label>
+            <input type="text" id="Search" name="Search" placeholder=" 🔍What do you want to play?">
+         </div>
+         <ul>
+            <li class="buttons">
+               <button class="button 1"><a href="https://www.spotify.com/in-en/premium/">Premium</a></button>
+               <button class="button 2"><a
+                     href="https://support.spotify.com/in-en/#_gl=1*2nyiki*_gcl_au*ODk5Njk2MzUxLjE3NTIwNjAyMTg.">Support</a></button>
+               <button class="button 3"><a href="https://www.spotify.com/in-en/download/windows/">Download</a></button>
+            </li>
+         </ul>
+         <div class="obsticle "> | </div>
+         <div class="final">
+      <div class="install">Install app</div>
+      <div class="sign"><a
+            href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2Fdownload">Sign
+            Up</a></div>
+      <div class="login"><a
+            href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2Fdownload">Log in</a>
+      </div>
+   </div>
+   </div>
+   
+   
+   </nav>
+   </div>
+
+   <!-- main body of the spotify clone -->
+   <div class="container">
+      <div class="left">
+         <div class="text">
+            <h3>Your Library</h3>
+            <button> + </button>
+         </div>
+         <div class="scroll-box">
+            <div class="first">
+               <h4>Create Your First Playlist</h4>
+               <p> It's easy,we'll help you </p>
+               <button>Create Playlist</button>
+            </div>
+            <div class="second">
+               <h4>Let's find some podcast to follow</h4>
+               <p> we'll keep you updated</p>
+               <button>Browse Podcast</button>
+            </div>
+         </div>
+         <div class="last">
+            <p>
+               <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+               <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety&Privacy Center</a>
+            </p>
+            <p>
+               <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+               <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+               <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+            </p>
+            <p>
+               <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+            </p>
+            <p>
+               <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                  rel="noopener">Cookies</a>
+            </p>
+            <p>
+               <button>🌐 English</button>
+            </p>
+         </div>
+
+      </div>
+      <div class="right scroll-box2">
+         <div class="trendingsong">
+            <h2>Trending Songs</h2>
+
+            <div class="cardcontainer scroll-box3">
+               <div class="card ">
+                  <div class="play">
+                     <svg viewBox="0 0 24 24" role="img" aria-hidden="true" class="icon">
+                        <path
+                           d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606">
+                        </path>
+                     </svg>
+
+
+
+                  </div>
+
+                  <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="Saiyara Songs">
+                  <h3>Saiyaara(From"Saiyaara")</h3>
+                  <p>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e020a47bbe7141fdfe0eb2cdba7" alt="Sahiba Songs">
+                  <h3>Sahiba</h3>
+                  <p>Aditya Rikhari</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e0225fa8e214ad888b7d291f25e" alt="Monica Songs">
+                  <h3>Monica ("Coolie")("Tamil")</h3>
+                  <p>Anirudh Ravichander,Asal Kolaar,Vishnu Edavan</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e024158732b9fa29d31b13f1bb9"
+                     alt="Mere murshir mere Yaara Songs">
+                  <h3>Mere Murshid Mere Yaara (From "Sarzameen")</h3>
+                  <p>Vishal Mishra,SALMAN Ali,Jaani</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e02bd7e1592d75a9ad8d211debd" alt="Sirra Songs">
+                  <h3>Sirra</h3>
+                  <p>Guru Randhawa,Kiran Bajwa,Rony Ajnali</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e02781faf59a3cb980fe3b493f8" alt="Dhun">
+                  <h3>Dhun ("Saiyaara")</h3>
+                  <p>Mithoon,Aritjit Singh</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e0259803e4a4a30dcf55464d882" alt="Dhadak Songs">
+                  <h3>Bas Ek Dhadak-From"Dhadak"</h3>
+                  <p>Shreya Ghosal,Jubin Nautiyal,Javed-Mohsin,Rashmi Virag</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e02148a06ae24e68c088d8d2954" alt="Sahiba Songs">
+                  <h3>Barbad("Saiyaara")</h3>
+                  <p>The Rish,Jubin Nautiyal</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e02e80fd38e3f7025158e40a3ae" alt="Sahiba Songs">
+                  <h3>Ehsaas</h3>
+                  <p>Fahim Abdullah,Duha Shah,Vaibhav Pani,Hyder Dar</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e02096e2a4581cab7a4bba393c3" alt="Sahiba Songs">
+                  <h3>Heer</h3>
+                  <p>Ali&Shjr,Haider Ali,Ali Raza</p>
+               </div>
+               <div class="card border">
+                  <img src="https://i.scdn.co/image/ab67616d00001e02f78ef2cf0e69e27c41bbe127" alt="Sahiba Songs">
+                  <h3>Together</h3>
+                  <p>Shubh</p>
+               </div>
+            </div>
+            <div class="playbar">
+               <div class="songinfo"></div>
+               <div class="songbtn">
+                  <img src="image/shuffle.svg" alt="">
+                  <img src="image/previous.svg" alt="previous button">
+                  <img src="image/play.svg" alt="play button">
+                  <img src="image/next.svg" alt="next button">
+                  <img src="image/loop.svg" alt="">
+               </div>
+               <div class="songtime"></div>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+   </div>
+   <script src="Spotify.js"></script>
+</body>
+
+</html>
